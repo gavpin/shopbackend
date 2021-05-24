@@ -16,7 +16,7 @@ connection.connect((errors) => {
   } else {
     console.log("Connected to MySQL successfully!");
   }
-});
+});   
 
 setInterval(() => {
   connection.query("select 1");
