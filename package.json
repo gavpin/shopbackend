@@ -1,17 +1,29 @@
 {
-  "name": "backend",
+  "name": "shopbackend",
   "version": "2.0.0",
   "description": "This is my backend code",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
-  "author": "",
+  "author": "gavin",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mysql": "^2.18.1"
-  }
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavpin/shopbackend.git"
+  },
+  "keywords": [
+    "shopbackend"
+  ],
+  "bugs": {
+    "url": "https://github.com/gavpin/shopbackend/issues"
+  },
+  "homepage": "https://github.com/gavpin/shopbackend#readme"
 }
